@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#bc81e3">
+    <!-- Your app title -->
+    <title>ANIMA</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="css/framework7-bundle.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/framework7-icons.css">
+    <!-- fuentes y tipografias-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almendra&family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+
+<!-- onload="abrirPopup('.popup-bienvenida')" -->
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+        <div id="panel" class="panel panel-left panel-left-1 panel-reveal panel-resizable panel-init">
+            <h4 style="padding: 9px 0 0 12px;">Menú</h4>
+            <div style="margin: 0; position: relative; bottom: 25px;" class="block">
+                <div class="list links-list">
+                    <ul>
+                        <li>
+                            <a href="#">Inicio</a></li>
+                        <li>
+                            <a href="#">Piedras</a></li>
+                        <li>
+                            <a href="#">Amuletos</a></li>
+                        <li>
+                            <a href="#">Señales</a></li>
+                        <li>
+                            <a href="#">Horóscopo</a></li>
+                        <li>
+                            <a href="#">Ajustes</a></li>
+                        <li>
+                            <a href="#">El Tarot</a></li>
+                        <li>
+                            <a href="#">Que es Esoterismo</a></li>
+
+                    </ul>
+                </div>
+                <!-- <p><a class="panel-close" href="#">Close me</a></p> -->
+            </div>
+        </div>
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+            <!-- Bottom Toolbar -->
+            <div class="toolbar toolbar-bottom toolbarstyle">
+                <div class="toolbar-inner">
+                    <!-- Toolbar links -->
+                    <a href="/inicio/" class="link"><i class="f7-icons blk-icons">house</i></a>
+                    <a href="#" class="link"><i class="f7-icons blk-icons">circle</i></a>
+                    <a href="#" class="link"><i class="f7-icons blk-icons">moon_stars</i></a>
+                    <a href="#" class="link"><i class="f7-icons blk-icons">sun_max</i></a>
+                    <a href="#" class="link"><i class="f7-icons blk-icons">person</i></a>
+
+
+                </div>
+            </div>
+
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page">
+                <div class="page-content">
+                    <!-- icono menu hamburgesa -->
+                    <div id="hamburger-box">
+                        <p id="hamburger-icon"><a class="panel-open" href="#" data-panel=".panel-left-1"><i class="f7-icons blk-icons">line_horizontal_3</i></a></p>
+                    </div>
+
+                    <div class="main-col fulltop">
+                        <h1 class="titulo" id="inicio">Inicio</h1>
+                        <br>
+
+
+                        <h1 class="titulo">Bienvenidx a tu guía</h1>
+                        <h1 class="titulo">Aquí puedes descubrir</h1>
+                        <br>
+
+                        <div class="row">
+                            <div class="item-2">
+                                <img src="images/zodiac-5921179_1920.png" alt="icon">
+                                <h4>Signos del Horóscopo</h4>
+                            </div>
+                            <div class="item-2">
+                                <img src="http://lorempixel.com/50/50" alt="icon">
+                                <h4>Elementos básicos</h4>
+                            </div>
+                        </div>
+                        <div class="row-1">
+                            <div class="item-1">
+                                <img src="images/sun.png" alt="icon">
+                                <h4 style="text-align: center;">El Tarot</h4>
+                            </div>
+                        </div>
+
+                        <br>
+                        <h1 class="titulo" id="esoterismo">¿Qué es el Esoterismo?</h1>
+
+                        <a href="/descubre/" class="button button-fill boton">Descubre</a>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+
+
+
+                <!-- Popups de bienvenida -->
+            </div>
+            <div class="popup popup-bienvenida">
+                <div class="row">
+                    <div class="deco-col">
+                        <img id="hoja-left" src="images/hojas.png" alt="hoja">
+                    </div>
+
+                    <div class="main-col wel">
+                        <div class="imgw">
+                            <img src="images/welcome.png" alt="welcome">
+                        </div>
+
+                        <div class="square">
+                            <div class="square-title">
+                                <h1>ánima</h1>
+                            </div>
+                            <div class="square-text">
+                                <h2>Tu guía hacia el esoterismo.</h2>
+                            </div>
+
+                        </div>
+                        <div class="square-icon">
+                            <i class="f7-icons blk-icons">moon_fill</i>
+                        </div>
+
+                        <br>
+                        <a class="popup-open button button-fill boton" href="#" onclick="cerrarPopup('.popup-bienvenida')" data-popup=".popup-registro">Siguiente</a>
+                    </div>
+                    <div class="deco-col">
+                        <img id="hoja-right" src="images/hojas.png" alt="hoja">
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup popup-registro">
+                <div class="main-col">
+                    <div class="registro-titulo">
+                        <h1>regi</h1>
+                        <h1 class="letras-juntas">st</h1>
+                        <h1>&nbsp;ro</h1>
+                    </div>
+                    <h3>Bienvenidx</h3>
+                    <form form action="" method="post" class="registro">
+                        <div class="fieldbox">
+                            <input type="text" name="name" id="name" placeholder="Nombre" size="30" maxlength="25">
+                        </div>
+                        <div class="fieldbox">
+                            <input type="email" name="email" id="email" placeholder="Correo" size="30" maxlength="20">
+                        </div>
+                        <div class="fieldbox">
+                            <input type="password" name="pass" id="pass" placeholder="Contraseña" size="30" maxlength="15">
+                        </div>
+                    </form>
+                    <br>
+                    <a href="#" class="popup-open button button-fill boton" onclick="cerrarPopup('.popup-registro')" data-popup=".popup-sepamos">Siguiente</a>
+                </div>
+            </div>
+
+
+            <div class="popup popup-sepamos">
+                <div class="main-col">
+
+
+                    <div class="sepamos-cabecera">
+                        <div class="imgd">
+                            <img class="decos" src="images/decos.png" alt="decos">
+                        </div>
+                        <h1 id="sepamos" class="titulo">Sepamos más de ti</h1>
+                        <div class="imgd">
+                            <img class="decos" src="images/decos.png" alt="decos">
+
+                        </div>
+                    </div>
+
+                    <form form action="" method="post" class="registro">
+                        <div class="fieldbox">
+                            <input type="text" name="fecha" id="fecha" placeholder="Fecha de nacimiento" size="30" maxlength="25">
+                        </div>
+                        <div class="fieldbox">
+                            <input type="text" name="hora" id="hora" placeholder="Hora de nacimiento" size="30" maxlength="20">
+                        </div>
+                        <div class="fieldbox">
+                            <input type="text" name="lugar" id="lugar" placeholder="Lugar de nacimiento" size="30" maxlength="15">
+                        </div>
+                    </form>
+                    <br>
+                    <a href="#" class="popup-open button button-fill boton" onclick="cerrarPopup('.popup-sepamos')" data-popup=".popup-personalizate">Siguiente</a>
+                </div>
+            </div>
+
+
+            <div class="popup popup-personalizate">
+                <div class="main-col">
+                    <h1 id="personalizate" class="titulo">Personalízate</h1>
+
+                    <div class="imgp">
+                        <img src="images/Anima-03.png" alt="personalizate">
+                    </div>
+                    <form form action="" method="post" class="registro">
+                        <div class="fieldbox">
+                            <input type="name" name="nickname" id="nickname" placeholder="Nickname" size="30" maxlength="25">
+                        </div>
+                        <div class="fieldbox">
+                            <textarea id="bio" name="bio" rows="6" cols="38" placeholder="Biografía" maxlength="190"></textarea>
+                        </div>
+                    </form>
+                    <br>
+                    <a href="#" class="popup-open button button-fill boton" onclick="cerrarPopup('.popup-personalizate')" data-popup=".popup-listo">Listo</a>
+                </div>
+            </div>
+
+
+            <div class="popup popup-listo">
+                <div class="main-col fullcenter">
+                    <h1 id="personalizate" class="titulo">Ahora estas listx para aprender</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="/index/" class="popup-close button button-fill boton">Comencemos</a>
+                </div>
+            </div>
+
+            <!-- agregar mas popups en la bienvenida aquí.. -->
+
+        </div>
+    </div>
+
+
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="js/framework7-bundle.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>

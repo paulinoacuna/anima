@@ -1,7 +1,5 @@
 * {
     font-family: 'Almendra', serif;
-    /* background-color: #a5a5a5; */
-    /* color: #000000; */
     margin: 0;
     padding: 0;
     font-weight: normal;
@@ -34,7 +32,6 @@ h2 {
 }
 
 h3 {
-    /* font-family: 'Almendra', serif; */
     font-size: 1em;
     letter-spacing: 7px;
 }
@@ -104,48 +101,7 @@ textarea::placeholder {
 }
 
 
-/* SWIPER */
-
-.demo-swiper .swiper-slide {
-    font-size: 25px;
-    font-weight: 300;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    color: #000;
-}
-
-.demo-swiper .swiper-slide {
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    background: #fff;
-}
-
-.demo-swiper {
-    margin: 0px 0 35px;
-    font-size: 18px;
-    height: 120px;
-}
-
-
-/* TARJETAS */
-
-.trj-y-img img {
-    display: block;
-    width: 100%;
-}
-
-.trj-y-img {
-    -webkit-box-shadow: 0px 5px 15px -3px #000000;
-    box-shadow: 0px 5px 15px -3px #000000;
-}
-
-
 /* App */
-
-
-/* estilos generales */
 
 .row {
     flex-wrap: nowrap;

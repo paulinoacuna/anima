@@ -389,16 +389,24 @@ form {
 .circle-small {
     width: 68px;
     height: 68px;
+    position: relative;
+    left: 15px;
 }
 
 .circle-small-2 {
     width: 38px;
     height: 38px;
+    position: relative;
+    bottom: 90px;
+    right: -25px;
 }
 
 .circle-small-3 {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    bottom: 114px;
+    right: 28px;
 }
 
 .deco-row {
@@ -466,4 +474,12 @@ form {
     .item {
         font-size: 1.2em;
     }
+}
+
+.deco-down {
+    display: flex;
+    position: relative;
+    bottom: 140px;
+    width: 100%;
+    justify-content: flex-end;
 }

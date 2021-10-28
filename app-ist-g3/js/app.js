@@ -14,36 +14,16 @@ var app = new Framework7({
     },
     // Add default routes
     routes: [{
-            path: '/about/',
-            url: 'about.html',
-        },
-        {
-            path: '/inicio/',
-            url: 'index.html',
-        },
-        {
-            path: '/welcome/registro/',
-            url: 'welcome/registro.html'
-        },
-        {
-            path: '/welcome/sepamos/',
-            url: 'welcome/sepamos.html'
-        },
-        {
-            path: '/welcome/personalizate/',
-            url: 'welcome/personalizate.html'
-        },
-        {
-            path: '/welcome/listoaprender/',
-            url: 'welcome/listoaprender.html'
-        },
-        {
             path: '/index/',
             url: 'index.html'
         },
         {
             path: '/descubre/',
             url: 'descubre.html'
+        },
+        {
+            path: '/pages/amuletos/',
+            url: 'pages/amuletos.html'
         },
     ],
     // ... other parameters
@@ -55,12 +35,20 @@ var mainView = app.views.create('.view-main');
 
 function abrirPopup(popupName) {
 
-    app.popup.open(popupName, true)
+    app.popup.open(popupName, true);
 
 }
 
 function cerrarPopup(popupName) {
 
-    app.popup.close(popupName, true)
+    app.popup.close(popupName, true);
 
+}
+
+function hideToolbar() {
+    var toolbar = document.getElementsByClassName("toolbar")[0];
+
+    setTimeout(() => {
+        app.toolbar.hide(toolbar, true)
+    }, 300);
 }

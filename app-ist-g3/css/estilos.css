@@ -268,7 +268,7 @@ form {
 }
 
 .titulo {
-    font-size: 2.5em;
+    font-size: 2.7em;
     letter-spacing: 0;
     text-align: center;
 }
@@ -358,4 +358,112 @@ form {
 
 #descubre-esotersimo {
     font-size: 3.5em;
+}
+
+
+/* amuletos */
+
+.imgh {
+    width: 115%;
+    position: relative;
+    bottom: 94px;
+}
+
+.circle {
+    width: 245px;
+    height: 245px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #CEAEE2;
+}
+
+.circle-mid {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    top: 60px;
+    right: 85px;
+}
+
+.circle-small {
+    width: 68px;
+    height: 68px;
+}
+
+.circle-small-2 {
+    width: 38px;
+    height: 38px;
+}
+
+.circle-small-3 {
+    width: 20px;
+    height: 20px;
+}
+
+.deco-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.deco-row .col-left {
+    width: 30%;
+    align-self: flex-end;
+}
+
+.deco-row .col-right {
+    width: 69%;
+}
+
+.col-right .circle-big {
+    position: relative;
+    bottom: 140px;
+}
+
+.col-right .row {
+    justify-content: right;
+    margin-right: 7%;
+}
+
+.content {
+    position: relative;
+    bottom: 230px;
+    width: 86%;
+}
+
+.grid {
+    display: flex;
+}
+
+.col-1 {
+    width: 50%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #000;
+    margin-bottom: 20%;
+    width: 66%;
+    height: 80px;
+    padding: 0 13px;
+    font-size: 1.6em;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.row-1 {
+    color: black;
+}
+
+@media (max-width: 396px) {
+    .item {
+        font-size: 1.2em;
+    }
 }

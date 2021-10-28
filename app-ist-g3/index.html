@@ -22,7 +22,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Almendra&family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 
-<body onload="abrirPopup('.popup-bienvenida')">
+<!-- onload="abrirPopup('.popup-bienvenida')" -->
+
+<body>
     <!-- App root element -->
     <div id="app">
         <div id="panel" class="panel panel-left panel-left-1 panel-reveal panel-resizable panel-init">
@@ -31,21 +33,21 @@
                 <div class="list links-list">
                     <ul>
                         <li>
-                            <a href="#">Inicio</a></li>
+                            <a href="/index/" class="panel-close">Inicio</a></li>
                         <li>
-                            <a href="#">Piedras</a></li>
+                            <a href="#" class="panel-close">Piedras</a></li>
                         <li>
-                            <a href="#">Amuletos</a></li>
+                            <a href="/pages/amuletos/" onclick="hideToolbar()" class="panel-close">Amuletos</a></li>
                         <li>
-                            <a href="#">Señales</a></li>
+                            <a href="#" class="panel-close">Señales</a></li>
                         <li>
-                            <a href="#">Horóscopo</a></li>
+                            <a href="#" class="panel-close">Horóscopo</a></li>
                         <li>
-                            <a href="#">Ajustes</a></li>
+                            <a href="#" class="panel-close">Ajustes</a></li>
                         <li>
-                            <a href="#">El Tarot</a></li>
+                            <a href="#" class="panel-close">El Tarot</a></li>
                         <li>
-                            <a href="#">Que es Esoterismo</a></li>
+                            <a href="#" class="panel-close">Que es Esoterismo</a></li>
 
                     </ul>
                 </div>
@@ -59,7 +61,7 @@
             <div class="toolbar toolbar-bottom toolbarstyle">
                 <div class="toolbar-inner">
                     <!-- Toolbar links -->
-                    <a href="/inicio/" class="link"><i class="f7-icons blk-icons">house</i></a>
+                    <a href="/index/" class="link"><i class="f7-icons blk-icons">house</i></a>
                     <a href="#" class="link"><i class="f7-icons blk-icons">circle</i></a>
                     <a href="#" class="link"><i class="f7-icons blk-icons">moon_stars</i></a>
                     <a href="#" class="link"><i class="f7-icons blk-icons">sun_max</i></a>

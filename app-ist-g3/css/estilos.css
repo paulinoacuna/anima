@@ -104,41 +104,20 @@ textarea::placeholder {
 }
 
 
-/* SWIPER */
+/* PAGINADOR */
 
-.demo-swiper .swiper-slide {
-    font-size: 25px;
-    font-weight: 300;
+.paginador {
     display: flex;
+    align-content: space-between;
     justify-content: center;
-    align-items: center;
-    background: #fff;
-    color: #000;
 }
 
-.demo-swiper .swiper-slide {
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    background: #fff;
-}
-
-.demo-swiper {
-    margin: 0px 0 35px;
-    font-size: 18px;
-    height: 120px;
-}
-
-
-/* TARJETAS */
-
-.trj-y-img img {
-    display: block;
-    width: 100%;
-}
-
-.trj-y-img {
-    -webkit-box-shadow: 0px 5px 15px -3px #000000;
-    box-shadow: 0px 5px 15px -3px #000000;
+.paginador a h5 {
+    text-align: center;
+    font-family: 'Almendra', serif;
+    font-family: 'Baskervville', serif;
+    font-size: 5em;
+    color: black;
 }
 
 
@@ -189,8 +168,12 @@ textarea::placeholder {
     margin-top: 0px;
 }
 
+.top {
+    margin-top: -15px;
+}
+
 .fulltop {
-    margin-top: -9%;
+    margin-top: -60px;
 }
 
 .square {
@@ -199,7 +182,17 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 100%; */
+}
+
+.ancho {
+    width: 100%;
+}
+
+.box-square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
 }
 
 .square-text {
@@ -221,12 +214,22 @@ textarea::placeholder {
     padding-left: 10px;
 }
 
+.square-img {
+    position: relative;
+    bottom: 70px;
+}
+
 .square-icon {
     position: relative;
     bottom: 9px;
     border-radius: 20px;
     background-color: #ffffff;
     padding: 0 6px;
+}
+
+.square-icon-large {
+    padding: 0 55px;
+    background-color: #efeff4;
 }
 
 .square-icon i {
@@ -269,6 +272,17 @@ form {
 
 .titulo {
     font-size: 2.7em;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 2.2em;
+    letter-spacing: 0;
+}
+
+.subtitulo-center {
+    font-size: 2.2em;
     letter-spacing: 0;
     text-align: center;
 }
@@ -482,4 +496,18 @@ form {
     bottom: 140px;
     width: 100%;
     justify-content: flex-end;
+}
+
+
+/* moneda china */
+
+.deco-hoja-up {
+    /* display: flex; */
+    align-self: flex-end;
+    margin-right: 20px;
+    /* width: 100%; */
+}
+
+#p-tarot {
+    margin: 0;
 }

@@ -22,8 +22,28 @@ var app = new Framework7({
             url: 'descubre.html'
         },
         {
+            path: '/pages/tarot/',
+            url: 'pages/tarot.html'
+        },
+        {
+            path: '/pages/tarot/marsella/',
+            url: 'pages/tarot/marsella.html'
+        },
+        {
+            path: '/pages/tarot/brujas/',
+            url: 'pages/tarot/brujas.html'
+        },
+        {
             path: '/pages/amuletos/',
             url: 'pages/amuletos.html'
+        },
+        {
+            path: '/pages/amuletos/monedaChina/',
+            url: 'pages/amuletos/monedaChina.html'
+        },
+        {
+            path: '/pages/amuletos/ojoTurco/',
+            url: 'pages/amuletos/ojoTurco.html'
         },
     ],
     // ... other parameters

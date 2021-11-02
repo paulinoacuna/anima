@@ -22,6 +22,44 @@ var app = new Framework7({
             url: 'descubre.html'
         },
         {
+            path: '/ajustes/',
+            url: 'ajustes.html'
+        },
+        {
+            path: '/pages/ajustes/perfil/',
+            url: 'pages/ajustes/perfil.html'
+        },
+        {
+            path: '/pages/ajustes/perfil/cambiar_contrasena/',
+            url: 'pages/ajustes/perfil/cambiar_contrasena.html'
+
+        },
+        {
+            path: '/pages/ajustes/perfil/desactivar_cuenta/',
+            url: 'pages/ajustes/perfil/desactivar_cuenta.html'
+
+        },
+        {
+            path: '/pages/ajustes/notificaciones/',
+            url: 'pages/ajustes/notificaciones.html'
+        },
+        {
+            path: '/pages/ajustes/idioma/',
+            url: 'pages/ajustes/idioma.html'
+        },
+        {
+            path: '/pages/ajustes/sincronizar/',
+            url: 'pages/ajustes/sincronizar.html'
+        },
+        {
+            path: '/pages/ajustes/soporte_tecnico/',
+            url: 'pages/ajustes/soporte_tecnico.html'
+        },
+        {
+            path: '/pages/ajustes/cerrar_sesion/',
+            url: 'pages/ajustes/cerrar_sesion.html'
+        },
+        {
             path: '/pages/tarot/',
             url: 'pages/tarot.html'
         },
@@ -44,16 +82,19 @@ var app = new Framework7({
         {
             path: '/pages/amuletos/ojoTurco/',
             url: 'pages/amuletos/ojoTurco.html'
-        }, {
+        },
+        {
             path: '/pages/horoscopo/',
             url: 'pages/horoscopo.html'
-        }, {
+        },
+        {
             path: '/pages/horoscopo/aries/',
             url: 'pages/horoscopo/aries.html'
-        }, {
+        },
+        {
             path: '/pages/horoscopo/tauro/',
             url: 'pages/horoscopo/tauro.html'
-        }
+        },
     ],
     // ... other parameters
 });

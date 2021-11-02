@@ -68,6 +68,12 @@ h4 {
     background-color: #CEAEE2;
 }
 
+.big {
+    text-transform: none;
+    font-size: 1.65em;
+    padding: 40px 60px;
+}
+
 .boton:active {
     background-color: rgb(49, 49, 49);
 }
@@ -134,6 +140,13 @@ textarea::placeholder {
 
 
 /* estilos generales */
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+}
 
 .row {
     flex-wrap: nowrap;
@@ -586,4 +599,17 @@ form {
     position: relative;
     top: -13px;
     font-size: 1.1em;
+}
+
+
+/* ajustes */
+
+div a h4 {
+    margin-left: 25px;
+}
+
+.ajustes {
+    color: black;
+    margin-bottom: 16px;
+    font-size: 1.8em;
 }

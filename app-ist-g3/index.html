@@ -41,13 +41,13 @@
                         <li>
                             <a href="#" class="panel-close">Señales</a></li>
                         <li>
-                            <a href="#" class="panel-close">Horóscopo</a></li>
+                            <a href="/pages/horoscopo/" onclick="hideToolbar()" class="panel-close">Horóscopo</a></li>
                         <li>
                             <a href="#" class="panel-close">Ajustes</a></li>
                         <li>
-                            <a href="#" class="panel-close">El Tarot</a></li>
+                            <a href="/pages/tarot/" onclick="hideToolbar()" class="panel-close">El Tarot</a></li>
                         <li>
-                            <a href="#" class="panel-close">Que es Esoterismo</a></li>
+                            <a href="/descubre/" class="panel-close">Que es Esoterismo</a></li>
 
                     </ul>
                 </div>
@@ -61,11 +61,33 @@
             <div class="toolbar toolbar-bottom toolbarstyle">
                 <div class="toolbar-inner">
                     <!-- Toolbar links -->
-                    <a href="/index/" class="link"><i class="f7-icons blk-icons">house</i></a>
-                    <a href="#" class="link"><i class="f7-icons blk-icons">circle</i></a>
-                    <a href="#" class="link"><i class="f7-icons blk-icons">moon_stars</i></a>
-                    <a href="/pages/tarot/" class="link"><i class="f7-icons blk-icons">sun_max</i></a>
-                    <a href="#" class="link"><i class="f7-icons blk-icons">person</i></a>
+                    <a href="/index/" class="link">
+                        <div class="icon-img">
+                            <img src="images/home.png" alt="">
+                        </div>
+                    </a>
+                    <a href="/pages/horoscopo/" class="link" onclick="hideToolbar()">
+                        <div class="icon-img">
+                            <img src="images/zodiac-5921179_1920.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="link">
+                        <div class="icon-img">
+                            <img src="images/luna.png" alt="icon">
+                        </div>
+                    </a>
+                    <a href="/pages/tarot/" class="link">
+                        <div class="icon-img">
+                            <img src="images/sun.png" alt="">
+                        </div>
+
+                    </a>
+                    <a href="#" class="link">
+                        <div class="icon-img">
+                            <img src="images/settings.png" alt="">
+                        </div>
+
+                    </a>
 
 
                 </div>
@@ -95,7 +117,7 @@
                                 <h4>Signos del Horóscopo</h4>
                             </div>
                             <div class="item-2">
-                                <img src="http://lorempixel.com/50/50" alt="icon">
+                                <img src="images/luna.png" alt="icon">
                                 <h4>Elementos básicos</h4>
                             </div>
                         </div>

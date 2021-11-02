@@ -18,6 +18,11 @@ img {
     width: 100%;
 }
 
+.icon-img {
+    width: 48%;
+    display: flex;
+}
+
 .imgw {
     padding: 10%;
 }
@@ -46,6 +51,10 @@ h4 {
 .parrafo {
     font-family: 'Baskervville', serif;
     font-size: 1.3em;
+}
+
+.toolbar-inner a {
+    width: 20%;
 }
 
 .boton {
@@ -146,8 +155,8 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 58px;
-    width: 100%
+    margin-top: 55px;
+    width: 100%;
 }
 
 .wel {
@@ -184,8 +193,13 @@ textarea::placeholder {
     align-items: center;
 }
 
-.ancho {
+.square-leyenda {
     width: 100%;
+}
+
+.medio {
+    width: 75%;
+    height: 100px;
 }
 
 .box-square {
@@ -510,4 +524,66 @@ form {
 
 #p-tarot {
     margin: 0;
+}
+
+
+/* horoscopo */
+
+.horoscopo {
+    width: 80%;
+}
+
+.col-1 a {
+    margin: 0 13px 19px 0;
+}
+
+.col-2 a {
+    margin: 0 0 19px 13px;
+}
+
+#square-img-horoscopo {
+    position: relative;
+    bottom: 20px;
+    padding: 0 8px;
+}
+
+#signos {
+    /* font-family: 'Almendra', serif; */
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    text-align: center;
+    /* margin: ; */
+    padding: -10px;
+    font-weight: 300;
+    background-color: transparent;
+}
+
+.square-icon-large-h {
+    padding: 0 22px;
+    top: -75px;
+}
+
+.dark-theme {
+    border-color: rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+}
+
+.dark-text {
+    color: black;
+}
+
+
+/* .horoscopo paginador */
+
+.square .parrafo {
+    /* font-family: 'Baskervville', serif; */
+    font-size: 1.28em;
+    padding: 0px 20px;
+}
+
+.square-fecha {
+    position: relative;
+    top: -13px;
+    font-size: 1.1em;
 }

@@ -44,7 +44,16 @@ var app = new Framework7({
         {
             path: '/pages/amuletos/ojoTurco/',
             url: 'pages/amuletos/ojoTurco.html'
-        },
+        }, {
+            path: '/pages/horoscopo/',
+            url: 'pages/horoscopo.html'
+        }, {
+            path: '/pages/horoscopo/aries/',
+            url: 'pages/horoscopo/aries.html'
+        }, {
+            path: '/pages/horoscopo/tauro/',
+            url: 'pages/horoscopo/tauro.html'
+        }
     ],
     // ... other parameters
 });

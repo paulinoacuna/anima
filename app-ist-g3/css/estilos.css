@@ -1,14 +1,12 @@
 * {
     font-family: 'Almendra', serif;
-    /* background-color: #a5a5a5; */
-    /* color: #000000; */
     margin: 0;
     padding: 0;
     font-weight: normal;
 }
 
 
-/* General */
+/* Generales */
 
 .blk-icons {
     color: black;
@@ -39,7 +37,6 @@ h2 {
 }
 
 h3 {
-    /* font-family: 'Almendra', serif; */
     font-size: 1em;
     letter-spacing: 7px;
 }
@@ -138,9 +135,6 @@ textarea::placeholder {
 
 /* App */
 
-
-/* estilos generales */
-
 .col {
     display: flex;
     flex-direction: column;
@@ -206,6 +200,10 @@ textarea::placeholder {
     align-items: center;
 }
 
+.ancho {
+    width: 100%;
+}
+
 .square-leyenda {
     width: 100%;
 }
@@ -225,8 +223,6 @@ textarea::placeholder {
 .square-text {
     position: relative;
     bottom: 24px;
-    /* background-color: #efeff4; */
-    /* padding-left: 10px; */
 }
 
 .square-text h2 {
@@ -283,7 +279,7 @@ form {
 }
 
 
-/* bienvenida*/
+/*bienvenida*/
 
 #hoja-left {
     transform: rotate(-50deg);
@@ -345,7 +341,7 @@ form {
 }
 
 
-/* inicio */
+/*inicio*/
 
 .panel {
     background-color: #CEAEE2;
@@ -389,7 +385,6 @@ form {
 .item-1 {
     display: flex;
     flex-direction: column;
-    /* justify-self: center; */
     width: 20%;
     margin-top: 20px;
 }
@@ -507,6 +502,10 @@ form {
     text-decoration-line: underline;
 }
 
+#estrella {
+    font-size: 1.5em;
+}
+
 .row-1 {
     color: black;
 }
@@ -529,10 +528,8 @@ form {
 /* moneda china */
 
 .deco-hoja-up {
-    /* display: flex; */
     align-self: flex-end;
     margin-right: 20px;
-    /* width: 100%; */
 }
 
 #p-tarot {
@@ -561,11 +558,9 @@ form {
 }
 
 #signos {
-    /* font-family: 'Almendra', serif; */
     font-size: 2.5em;
     letter-spacing: 1px;
     text-align: center;
-    /* margin: ; */
     padding: -10px;
     font-weight: 300;
     background-color: transparent;
@@ -587,10 +582,9 @@ form {
 }
 
 
-/* .horoscopo paginador */
+/* horoscopo aries, tauro, etc..*/
 
 .square .parrafo {
-    /* font-family: 'Baskervville', serif; */
     font-size: 1.28em;
     padding: 0px 20px;
 }

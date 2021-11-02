@@ -22,9 +22,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Almendra&family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 
-<!-- onload="abrirPopup('.popup-bienvenida')" -->
 
-<body>
+<body onload="abrirPopup('.popup-bienvenida')">
     <!-- App root element -->
     <div id="app">
         <div id="panel" class="panel panel-left panel-left-1 panel-reveal panel-resizable panel-init">
@@ -51,10 +50,10 @@
 
                     </ul>
                 </div>
-                <!-- <p><a class="panel-close" href="#">Close me</a></p> -->
+
             </div>
         </div>
-        <!-- Your main view, should have "view-main" class -->
+        <!-- main view, should have "view-main" class-->
         <div class="view view-main">
 
             <!-- Bottom Toolbar -->
@@ -71,12 +70,12 @@
                             <img src="images/zodiac-5921179_1920.png" alt="">
                         </div>
                     </a>
-                    <a href="#" class="link">
+                    <a href="#" class="link" onclick="hideToolbar()">
                         <div class="icon-img">
                             <img src="images/luna.png" alt="icon">
                         </div>
                     </a>
-                    <a href="/pages/tarot/" class="link">
+                    <a href="/pages/tarot/" class="link" onclick="hideToolbar()">
                         <div class="icon-img">
                             <img src="images/sun.png" alt="">
                         </div>
@@ -92,7 +91,6 @@
 
                 </div>
             </div>
-
 
             <!-- Initial Page, "data-name" contains page name -->
             <div data-name="home" class="page">
@@ -251,7 +249,6 @@
                 </div>
             </div>
 
-
             <div class="popup popup-listo">
                 <div class="main-col fullcenter">
                     <h1 id="personalizate" class="titulo">Ahora estas listx para aprender</h1>
@@ -262,12 +259,8 @@
                     <a href="/index/" class="popup-close button button-fill boton">Comencemos</a>
                 </div>
             </div>
-
-            <!-- agregar mas popups en la bienvenida aquí.. -->
-
         </div>
     </div>
-
 
     <!-- Path to Framework7 Library Bundle JS-->
     <script type="text/javascript" src="js/framework7-bundle.min.js"></script>

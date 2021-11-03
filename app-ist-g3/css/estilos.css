@@ -45,6 +45,10 @@ h4 {
     font-size: 1.4em;
 }
 
+h5 {
+    font-size: 1.4em;
+}
+
 .parrafo {
     font-family: 'Baskervville', serif;
     font-size: 1.3em;
@@ -359,6 +363,8 @@ form {
 #hamburger-icon {
     padding: 15px;
     margin: 0;
+    position: relative;
+    z-index: 5;
 }
 
 #hamburger-box {
@@ -380,6 +386,12 @@ form {
     width: 20%;
     margin: 0 7%;
     text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.item-2:active {
+    color: #CEAEE2;
 }
 
 .item-1 {
@@ -387,6 +399,12 @@ form {
     flex-direction: column;
     width: 20%;
     margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.item-1:active {
+    color: #CEAEE2;
 }
 
 

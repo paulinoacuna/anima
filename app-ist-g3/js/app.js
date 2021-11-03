@@ -72,6 +72,14 @@ var app = new Framework7({
             url: 'pages/tarot/brujas.html'
         },
         {
+            path: '/pages/tarot/angeles/',
+            url: 'pages/tarot/angeles.html'
+        },
+        {
+            path: '/pages/tarot/ejipcio/',
+            url: 'pages/tarot/ejipcio.html'
+        },
+        {
             path: '/pages/amuletos/',
             url: 'pages/amuletos.html'
         },
@@ -113,12 +121,4 @@ function cerrarPopup(popupName) {
 
     app.popup.close(popupName, true);
 
-}
-
-function hideToolbar() {
-    var toolbar = document.getElementsByClassName("toolbar")[0];
-
-    setTimeout(() => {
-        app.toolbar.hide(toolbar, true)
-    }, 300);
 }

@@ -22,8 +22,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Almendra&family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 
+<!-- onload="abrirPopup('.popup-bienvenida')" -->
 
-<body onload="abrirPopup('.popup-bienvenida')">
+<body>
     <!-- App root element -->
     <div id="app">
         <div id="panel" class="panel panel-left panel-left-1 panel-reveal panel-resizable panel-init">
@@ -36,15 +37,15 @@
                         <li>
                             <a href="#" class="panel-close">Piedras</a></li>
                         <li>
-                            <a href="/pages/amuletos/" onclick="hideToolbar()" class="panel-close">Amuletos</a></li>
+                            <a href="/pages/amuletos/" class="panel-close">Amuletos</a></li>
                         <li>
                             <a href="#" class="panel-close">Señales</a></li>
                         <li>
-                            <a href="/pages/horoscopo/" onclick="hideToolbar()" class="panel-close">Horóscopo</a></li>
+                            <a href="/pages/horoscopo/" class="panel-close">Horóscopo</a></li>
                         <li>
                             <a href="/ajustes/" class="panel-close">Ajustes</a></li>
                         <li>
-                            <a href="/pages/tarot/" onclick="hideToolbar()" class="panel-close">El Tarot</a></li>
+                            <a href="/pages/tarot/" class="panel-close">El Tarot</a></li>
                         <li>
                             <a href="/descubre/" class="panel-close">Que es Esoterismo</a></li>
 
@@ -65,17 +66,17 @@
                             <img src="images/home.png" alt="">
                         </div>
                     </a>
-                    <a href="/pages/horoscopo/" class="link" onclick="hideToolbar()">
+                    <a href="/pages/horoscopo/" class="link">
                         <div class="icon-img">
                             <img src="images/zodiac-5921179_1920.png" alt="">
                         </div>
                     </a>
-                    <a href="#" class="link" onclick="hideToolbar()">
+                    <a href="#" class="link">
                         <div class="icon-img">
                             <img src="images/luna.png" alt="icon">
                         </div>
                     </a>
-                    <a href="/pages/tarot/" class="link" onclick="hideToolbar()">
+                    <a href="/pages/tarot/" class="link">
                         <div class="icon-img">
                             <img src="images/sun.png" alt="">
                         </div>
@@ -110,20 +111,20 @@
                         <br>
 
                         <div class="row">
-                            <div class="item-2">
+                            <a href="/pages/horoscopo/" class="item-2">
                                 <img src="images/zodiac-5921179_1920.png" alt="icon">
-                                <h4>Signos del Horóscopo</h4>
-                            </div>
-                            <div class="item-2">
+                                <h5>Signos del Horóscopo</h5>
+                            </a>
+                            <a href="#" class="item-2">
                                 <img src="images/luna.png" alt="icon">
-                                <h4>Elementos básicos</h4>
-                            </div>
+                                <h5>Elementos básicos</h5>
+                            </a>
                         </div>
                         <div class="row-1">
-                            <div class="item-1">
+                            <a href="/pages/tarot/" class="item-1">
                                 <img src="images/sun.png" alt="icon">
-                                <h4 style="text-align: center;">El Tarot</h4>
-                            </div>
+                                <h5 style="text-align: center;">El Tarot</h5>
+                            </a>
                         </div>
 
                         <br>
